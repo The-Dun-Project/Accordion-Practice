@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Accordion Practice
 
 This repository tracks my 14-day practice project where I rebuild the same animated accordion component from scratch using HTML, CSS, and JavaScript.
@@ -26,7 +26,7 @@ I rebuild this project from scratch each day instead of endlessly editing one fi
 
 ## Progress
 Day 1 begins here.
-=======
+
 # Accordion-Practice
 14-day accordion rebuild practice in HTML, CSS, and JavaScript.
->>>>>>> 26ee1f5542ffdfaf27030df30dbd023a05f952f9
+
