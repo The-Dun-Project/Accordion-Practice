@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F4F4F4;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion-wrapper  {
+    background: #FFFFF8;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 18px;
+    overflow: hidden;
+}
