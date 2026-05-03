@@ -1,4 +1,4 @@
-const allAccordionItems = document.querySelector(".accordion-item");
+const allAccordionItems = document.querySelectorAll(".accordion-item");
 
 allAccordionItems.forEach((item) => {
     const header = item.querySelector(".accordion-header");
@@ -10,8 +10,13 @@ allAccordionItems.forEach((item) => {
         allAccordionItems.forEach((otherItem) => {
             otherItem.classList.remove("active");
 
-            const otherContent = querySelector(".accordion-content");
+            const otherContent = otherItem.querySelector(".accordion-content");
             otherContent.style.maxHeight = null;
         })
-    });
+
+        if(!isActive){
+            item.classList.add("active");
+            content.style.maxHeight = item.scrollHeight + "px";
+        }
+    })
 })
